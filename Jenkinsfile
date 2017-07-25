@@ -1,4 +1,4 @@
-node ("testing") {
+node ("test") {
     stage ("Checkout") {
       checkout([$class: 'GitSCM', 
       branches: [[name: '*/master']], 
